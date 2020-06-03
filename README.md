@@ -5,6 +5,11 @@
 :rocket: Technologies
 
 - ReactJS
+- Axios
+- LeafFlet Map
+- React LeaFlet Component
+- React Router Dom
+- IBGE Api resources
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
