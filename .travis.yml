@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- lts/*
+before_script:
+- npm run build
+deploy:
+  provider: heroku
+  app: ecoleta-web
+  api_key:
+    secure: PWENPDXgs3gCvNERyzf8NZTMkiZr4FfhHCOI28TQ23Ggel9BDeKNrqvVRccmpxYpn2iSOPNrqokl5jQ9maEKAt3wO0Fm4SthufR0A+iXWBf58X2wVrXTiFnVF+A7fGy7n+gYnc8HjSiwUHUsneQpry1udUvvlFQsDscEOxp6Qlap0I4RPWhSeNumIls4SwTUApWlrYpCjEJvJ7Z+hIAje7LQFR0KVmZ/i0dB3vVREqaB/isP/JYI8b1ywhLnIvgeV4NNQ5jxyIv3vfitlyDwCaRi5XqN1FIizlhcBYkVO9bOI0/gNXDI6zJGS4EHg6sowQYpNgX09H6HkxzofM3+q60MhSCqm8L9g+P2lhWBWAgg8J1bou1eOehXhY+MqVAs6bR2mRgqgwMR3CMsLXzA21s7sTe9IaPuMZuADrlwDnRbsu9AU7hdiUD5isswB/gcYvG7OWvujBUQnBh++7cYTnZcApKSFM25ZGhRNY/OkCwhicR+qWaWcYD+KLUJm/dWLdowN1rScnHabCuB9rABINuARHgf6JtNiyaJoNj6lGZsMFTSYY+yvgu4Aw80ARfHfdK7FqUJPKhV6rLyeQgPptZlQHEx/B1rCaTBs1MzOIW47RNad+RKOKE0d9QvYc/PK9lZUAmVeCPCt7S9vqdKiI2UyOBUNBJ+IuvQerYTkUw=
