@@ -201,3 +201,31 @@
   background: #E1FAEC;
   border: 2px solid #34CB79;
 }
+
+@media (max-width: 600px) {
+  #page-create-point header{
+    display: block !important;
+    text-align: center;
+  }
+  #page-create-point header a {
+    display: block !important;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: -50px;
+  }
+  #page-create-point form button{
+    align-self: center !important;
+  }
+  #page-create-point form {
+    padding: 32px !important;
+  }
+  .field-group{
+    display: block !important;
+  }
+  .field{    
+    margin-left: 0 !important;
+  }
+  .items-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
