@@ -219,6 +219,9 @@
   #page-create-point form {
     padding: 32px !important;
   }
+  #page-create-point form legend {
+    display: block !important;
+  }
   .field-group{
     display: block !important;
   }
